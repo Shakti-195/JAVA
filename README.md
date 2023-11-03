@@ -2,7 +2,7 @@
 - 👀 I’m interested in ... Software Development 
 - 🌱 I’m currently learning ...java programming 
 - 📫 How to reach me ... through mail... thakurshaktisingh195@gmail.com
-- 
+
 
 <!---
 Shakti-195/Shakti-195 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
