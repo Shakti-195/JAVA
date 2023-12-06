@@ -1,0 +1,76 @@
+// Abstract Bank class
+abstract class Bank {
+    // Abstract method
+    abstract void abstractMethod();
+
+    // Concrete methods
+    void bankAddress(String address) {
+        System.out.println("Bank Address: " + address);
+    }
+
+    void customerService() {
+        System.out.println("Customer service provided.");
+    }
+
+    void alwaysThereforeCustomerSupport() {
+        System.out.println("Always, therefore, customer support.");
+    }
+}
+
+// AccessBank class extending Bank
+class AccessBank extends Bank {
+    @Override
+    void abstractMethod() {
+        System.out.println("AccessBank's implementation of abstract method.");
+    }
+
+    // Additional method specific to AccessBank
+    void stringAddress(String address) {
+        System.out.println("String Address: " + address);
+    }
+}
+
+// ICICIBank class extending Bank
+class ICICIBank extends Bank {
+    @Override
+    void abstractMethod() {
+        System.out.println("ICICIBank's implementation of abstract method.");
+    }
+}
+
+// Demo class
+public class BankDemo {
+    public static void main(String[] args) {
+        // Create objects of AccessBank and ICICIBank
+        AccessBank accessBank = new AccessBank();
+        ICICIBank iciciBank = new ICICIBank();
+
+        // Call methods on AccessBank object
+        accessBank.bankAddress("123 Main Street");
+        accessBank.stringAddress("456 String Avenue");
+        accessBank.abstractMethod();
+        accessBank.customerService();
+        accessBank.alwaysThereforeCustomerSupport();
+
+        System.out.println(); // Add a line break for clarity
+
+        // Call methods on ICICIBank object
+        iciciBank.bankAddress("789 Broadway");
+        iciciBank.abstractMethod();
+        iciciBank.customerService();
+        iciciBank.alwaysThereforeCustomerSupport();
+    }
+}
+
+Output:
+
+Bank Address: 123 Main Street
+String Address: 456 String Avenue
+AccessBank's implementation of abstract method.
+Customer service provided.
+Always, therefore, customer support.
+
+Bank Address: 789 Broadway
+ICICIBank's implementation of abstract method.
+Customer service provided.
+Always, therefore, customer support.
