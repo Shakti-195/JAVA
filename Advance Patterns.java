@@ -39,7 +39,7 @@ public class Main{
     }
   }
 }
-
+-----------------------------------------------
 //Solid Rhombus
 import java.util.*;
 public class Main{
@@ -57,7 +57,7 @@ public class Main{
         System.out.println();
       }
     }
-
+-----------------------------------------------
   //Numbers Pyramid
   import java.util.*;
 public class Main{
@@ -76,7 +76,7 @@ public class Main{
       }
     }
 }
-
+-----------------------------------------------
 //Palindromic Pattern
 import java.util.*;
 public class Main{
@@ -99,7 +99,7 @@ public class Main{
       }
     }
 }
-
+-----------------------------------------------
 //Diamond Pattern
 import java.util.*;
 public class Main{
