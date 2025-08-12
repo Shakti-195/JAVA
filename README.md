@@ -2,6 +2,7 @@
 - 👀 I’m interested in ... Software Development 
 - 🌱 I’m currently learning ...java programming 
 - 📫 How to reach me ... through mail... thakurshaktisingh195@gmail.com
+Shakti Singh
 
 
 <!---
